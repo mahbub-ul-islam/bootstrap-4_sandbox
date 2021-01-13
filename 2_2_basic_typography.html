@@ -86,7 +86,7 @@
 
   <div class="container">
     <!--####################START HERE######################-->
-
+    <p class="text-info">HEADINGS</p>
     <!-- HEADINGS -->
     <h1 class="h6">Heading One</h1>
     <h2 class="h5">Heading Two</h2>
@@ -97,6 +97,7 @@
 
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">DISPLAY CLASSES</p>
     <br>
 
 
@@ -106,9 +107,12 @@
     <h1 class="display-3">Display 3</h1>
     <h1 class="display-4">Display 4</h1>
 
+
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">PARAGRAPHS</p>
     <br>
+
 
     <!-- PARAGRAPHS -->
     <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aperiam dolore repellendus veniam consequatur vero numquam
@@ -121,11 +125,13 @@
     <!-- MONOSPACE PARAGRAPH -->
     <p class="text-monospace">My monospace paragraph</p>
     
+
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">Inline text elements</p>
     <br>
 
-    
+
     <!-- Inline text elements -->
     <p>You can use the mark tag to <mark>highlight</mark> text.</p>
     <p>You can use the mark tag to <span class="mark">highlight</span> text.</p>
@@ -144,6 +150,7 @@
 
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">Font weight and italics</p>
     <br>
 
 
@@ -156,6 +163,7 @@
 
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">TEXT TRANSFORMS</p>
     <br>
 
 
@@ -167,6 +175,7 @@
 
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">Abbreviations</p>
     <br>
 
     
@@ -183,44 +192,81 @@
     
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">BLOCKQUOTES</p>
     <br>
 
-
     <!-- BLOCKQUOTES -->
-    <blockquote>
+    <blockquote class="blockquote">
       <p>This is a blockquote</p>
     </blockquote>
 
+    <!-- BLOCKQUOTE center ALIGNED -->
+    <blockquote class="blockquote text-center">
+      <p>This is a blockquote aligned center</p>
+    </blockquote>
+
     <!-- BLOCKQUOTE RIGHT ALIGNED -->
-    <blockquote>
+    <blockquote class="blockquote text-right">
       <p>This is a blockquote aligned right</p>
     </blockquote>
 
     <!-- BLOCKQUOTE WITH FOOTER -->
-    <blockquote>
+    <blockquote class="blockquote">
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-      <footer>Someone famous in
+      <footer class="blockquote-footer">Someone famous in
         <cite title="Source Title">Source Title</cite>
       </footer>
     </blockquote>
 
+    <blockquote class="blockquote text-center">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">Someone famous in
+        <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+
+    <blockquote class="blockquote text-right">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">Someone famous in
+        <cite title="Source Title">Source Title</cite>
+      </footer>
+    </blockquote>
+
+
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">TEXT TRUNCATE</p>
     <br>
 
     <!-- TEXT TRUNCATE -->
-    <div>
+    <div class="text-truncate">
       Lorem, ipsum dolor sit amet consectetur adipisicing elit. Assumenda repellat nobis sunt qui consequatur architecto veritatis,
       iure odit, debitis pariatur perspiciatis? Asperiores facere veniam, totam ullam dignissimos voluptate atque! Eos, animi
       quos. Sint magni nulla provident et consequatur officia tempora!
     </div>
 
+    <!-- Block level -->
+    <div class="row">
+      <div class="col-2 text-truncate">
+        Praeterea iter est quasdam res quas ex communi.
+      </div>
+    </div>
+
+    <!-- Inline level -->
+    <span class="d-inline-block text-truncate" style="max-width: 150px;">
+      Praeterea iter est quasdam res quas ex communi.
+    </span>
+
+
+
     <br>
     <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+    <p class="text-info">LISTS</p>
     <br>
 
+
     <!-- LISTS -->
-    <ul>
+    <ul class="list-unstyled">
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
       <li>Lorem ipsum dolor sit amet.</li>
@@ -228,10 +274,10 @@
     </ul>
 
     <!-- INLINE LIST -->
-    <ul>
-      <li>Lorem ipsum</li>
-      <li>Lorem ipsum </li>
-      <li>Lorem ipsum </li>
+    <ul class="list-inline">
+      <li class="list-inline-item">Lorem ipsum</li>
+      <li class="list-inline-item">Lorem ipsum </li>
+      <li class="list-inline-item">Lorem ipsum </li>
     </ul>
   </div>
 
