@@ -646,6 +646,7 @@
         </form>
 
         <br>
+        <br>
         <p class="text-info ms-5">FORM ROW</p>
         <!-- FORM ROW -->
         <form>
@@ -661,23 +662,30 @@
 
         <br>
         <br>
-
+        <p class="text-info ms-5">VALIDATION</p>
         <!-- VALIDATION -->
-        <div>
+        <div class="form-group">
             <label for="username">Username</label>
-            <input type="text" id="username">
+            <input class="form-control is-valid" type="text" placeholder=""id="username">
         </div>
-        <div>
+        <div class="form-group">
             <label for="password">Password</label>
-            <input type="text" id="password">
-            <div>
+            <input class="form-control is-valid" type="text" id="password">
+            <div class="valid-feedback">
                 Password not strong enough
             </div>
         </div>
-        <div>
+        <div class="form-group">
             <label for="password2">Confirm Password</label>
-            <input type="text" id="password2">
-            <div>
+            <input class="form-control is-invalid" type="text" id="password2">
+            <div class="valid-feedback">
+                Password does not match
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="password2">Confirm Password</label>
+            <input class="form-control is-invalid" type="text" id="password2">
+            <div class="invalid-feedback">
                 Password does not match
             </div>
         </div>
