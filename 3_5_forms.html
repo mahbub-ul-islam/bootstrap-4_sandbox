@@ -164,6 +164,8 @@
 
 
 
+
+
         <br>
         <hr style="border-top: 3px solid rgba(0,0,0,.1);">
         <p class="text-danger">Form controls</p>
@@ -325,6 +327,9 @@
 
 
 
+
+
+
         <br>
         <hr style="border-top: 3px solid rgba(0,0,0,.1);">
         <p class="text-danger">Form Select</p>
@@ -382,6 +387,14 @@
         </select>
 
 
+
+
+
+
+
+
+
+
         <br>
         <hr style="border-top: 3px solid rgba(0,0,0,.1);">
         <p class="text-danger">Checks and radios</p>
@@ -402,7 +415,7 @@
         </div>
 
         <br>
-        <p class="text-info ms-5">Indeterminate</p>
+        <p class="text-info ms-5">Checks: Indeterminate</p>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckIndeterminate">
             <label class="form-check-label" for="flexCheckIndeterminate">
@@ -411,7 +424,7 @@
         </div>
 
         <br>
-        <p class="text-info ms-5">Disabled</p>
+        <p class="text-info ms-5">Checks: Disabled</p>
         <div class="form-check">
             <input class="form-check-input" type="checkbox" value="" id="flexCheckDisabled" disabled>
             <label class="form-check-label" for="flexCheckDisabled">
@@ -441,7 +454,7 @@
         </div>
         
         <br>
-        <p class="text-info ms-5">Disabled</p>
+        <p class="text-info ms-5">Radios: Disabled</p>
         <div class="form-check">
             <input class="form-check-input" type="radio" name="flexRadioDisabled" id="flexRadioDisabled" disabled>
             <label class="form-check-label" for="flexRadioDisabled">
@@ -550,10 +563,11 @@
 
         
         <br>
-        <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+        <br>
         <p class="text-danger">Toggle buttons</p>
         
         <p class="text-info ms-5">Checkbox toggle buttons</p>
+
         <input type="checkbox" class="btn-check" id="btn-check" autocomplete="off">
         <label class="btn btn-primary" for="btn-check">Single toggle</label>
 
@@ -616,6 +630,38 @@
         <p class="text-info ms-5">Steps</p>
         <label for="customRange3" class="form-label">Example range</label>
         <input type="range" class="form-range" min="0" max="5" step="0.5" id="customRange3">
+
+
+
+
+
+
+        <br>
+        <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+        <p class="text-danger">Floating labels</p>
+
+        <p class="text-info ms-5">Example</p>
+        <div class="form-floating">
+            <!-- have to put someting in placeholder for this to work -->
+            <input class="form-control" type="email" placeholder="name@example.com">
+            <label>Email address</label>
+        </div>
+        <br>
+        <div class="form-floating">
+            <input class="form-control" type="password" placeholder="password">
+            <label>Password</label>
+        </div>
+        <br>
+        <form class="form-floating">
+            <!-- adding value for initial input -->
+            <input class="form-control" type="email" placeholder="email@example.com" value="test@example.com">
+            <label>Input with value</label>
+        </form>
+        <br>
+        <form class="form-floating">
+            <input class="form-control is-invalid" type="email" placeholder="email@example.com" value="test@example.com">
+            <label>Invalid input</label>
+        </form>
 
 
 
