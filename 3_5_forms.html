@@ -1238,9 +1238,71 @@
         </form>
 
 
+        <br>
+        <p class="text-info ms-5">Tooltips</p>
 
-
-
+        <form class="row border border-success rounded p-3 g-3 needs-validation" novalidate>
+            <div class="col-md-4 position-relative mb-3">
+                <label class="form-label">First name</label>
+                <input class="form-control is-valid" type="text" value="Mark" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4 position-relative mb-3">
+                <label class="form-label">Last name</label>
+                <input class="form-control is-valid" type="text" value="Otto" required>
+                <div class="valid-tooltip">
+                    Looks good!
+                </div>
+            </div>
+            <div class="col-md-4 position-relative mb-3">
+                <label class="form-label">Username</label>
+                <div class="input-group has-validation">
+                    <span class="input-group-text">@</span>
+                    <input class="form-control is-invalid"type="text" required>
+                    <div class="invalid-tooltip">
+                        Please choose a username.
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 mb-3">
+                <label class="form-label">City</label>
+                <input class="form-control is-invalid" type="text" required>
+                <div class="invalid-tooltip">
+                    Please provide a valid city.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label class="form-label">State</label>
+                <select class="form-select is-invalid">
+                    <option selected hidden value="">Choose...</option>
+                    <option>...</option>
+                </select>
+                <div class="invalid-tooltip">
+                    Please select a valid state.
+                </div>
+            </div>
+            <div class="col-md-3 mb-3">
+                <label class="form-label">Zip</label>
+                <input class="form-control is-invalid"type="text">
+                <div class="invalid-tooltip">
+                    Please provide a valid zip.
+                </div>
+            </div>
+            <div class="col-md-12 mb-3">
+                <div class="form-check">
+                    <input class="form-check-input is-invalid" type="checkbox">
+                    <label class="form-check-label">Agree to terms and conditions</label>
+                    <div class="invalid-tooltip">
+                        You must agree before submitting.
+                    </div>
+                </div>
+            </div>
+            <div class="col-12">
+                <button class="btn btn-primary">Submit form</button>
+            </div>
+        </form> 
 
 
 
