@@ -891,8 +891,15 @@
                 </tr>
             </tbody>
         </table>
+
+
+
         <br>
-        <table>
+        <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+        <p><h2 class="text-success">Small tables</h2></p>
+
+        <br>
+        <table class="table table-sm">
             <thead>
                 <tr>
                     <th>#</th>
@@ -922,6 +929,147 @@
                 </tr>
             </tbody>
         </table>
+        <br>
+        <table class="table table-dark table-sm">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">2</th>
+                    <td>Will</td>
+                    <td>Johnson</td>
+                    <td>will@yahoo.com</td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+
+        <br>
+        <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+        <p><h2 class="text-success">Vertical alignment</h2></p>
+        <table class="table table-sm table-dark">
+            <div class="table-responsive">
+                <table class="table align-middle">
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>First Name</th>
+                            <th>Last Name</th>
+                            <th>Email</th>
+                            <th>Email</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="align-middle">
+                            <th scope="row">1</th>
+                            <td>John</td>
+                            <td>Doe</td>
+                            <td>jdoe@gmail.com</td>
+                            <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+                        </tr>
+                        <tr class="align-bottom">
+                            <th scope="row">2</th>
+                            <td class="align-middle">Will</td>
+                            <td>Johnson</td>
+                            <td>will@yahoo.com</td>
+                            <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">3</th>
+                            <td>Shannon</td>
+                            <td>Williams</td>
+                            <td>shannon@yahoo.com</td>
+                            <td>This here is some placeholder text, intended to take up quite a bit of vertical space, to demonstrate how the vertical alignment works in the preceding cells.</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </table>
+
+
+
+        <br>
+        <hr style="border-top: 3px solid rgba(0,0,0,.1);">
+        <p><h2 class="text-success">Nesting</h2></p>
+        <table class="table table-dark table-striped">
+            <thead>
+                <tr>
+                    <th>#</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Email</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row">1</th>
+                    <td>John</td>
+                    <td>Doe</td>
+                    <td>jdoe@gmail.com</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th>#</th>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Email</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <th scope="row">1</th>
+                                    <td>John</td>
+                                    <td>Doe</td>
+                                    <td>jdoe@gmail.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">2</th>
+                                    <td>Will</td>
+                                    <td>Johnson</td>
+                                    <td>will@yahoo.com</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">3</th>
+                                    <td>Shannon</td>
+                                    <td>Williams</td>
+                                    <td>shannon@yahoo.com</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">3</th>
+                    <td>Shannon</td>
+                    <td>Williams</td>
+                    <td>shannon@yahoo.com</td>
+                </tr>
+            </tbody>
+        </table>
+        <br>
+        <br>
+        <br>
         <br>
         <br>
         <br>
