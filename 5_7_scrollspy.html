@@ -228,8 +228,17 @@
         // prevent default behavior
         e.preventDefault();
 
-        // 
+        // Store hash
+        const hash = this.hash
 
+        // animate smooth scrolling
+        $('html, body').animate({
+          scrollTop: $(hash).offset().top
+        }, 900, function(){
+          // add hash to url after scroll
+          window.location.hash = hash;
+        });
+        
       }
     });
 
